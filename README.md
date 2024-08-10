@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+<h1 align="center">Buscador de clima</h1>
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/9f0c29bf-4416-478f-9380-248479167e0c" alt="Buscador de clima"> 
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2> :page_facing_up: Descripción del proyecto</h2>
 
-Currently, two official plugins are available:
+<p> La aplicación consiste en la creación de un buscador de clima en base a una ciudad y país, recogiendo
+datos de una API</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<b>Proyecto: <a href="https://celadon-biscuit-9b2472.netlify.app/" target="_blank">Buscador de clima</a></b>
 
-## Expanding the ESLint configuration
+<h2> :heavy_check_mark: Características</h2>
+<p> Proyecto creado en React donde se introducirá utilización de API's.
+  Para realizar el type se utilizará ZOD, para el estilo módulos de css y también 
+  se incorporará un <a href="https://tobiasahlin.com/spinkit/">spinner de carga</a> para tener una buena retroalimentación.
+</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h2> :hammer: Tecnologías aplicadas</h2>
 
-- Configure the top-level `parserOptions` property like this:
+<ul>
+  <li>React</li>
+  <li>Vite</li>
+  <li>TypeScript</li>
+  <li>Module CSS</li>
+  <li>JSX</li>
+  <li>API</li>
+  <li>ZOD</li>
+</ul>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h2>Idea del proyecto</h2>
+<p>Este proyecto fue realizado durante el curso de <a href="https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones/?couponCode=KEEPLEARNING">React y TypeScript</a></p>
